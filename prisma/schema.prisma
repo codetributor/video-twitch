@@ -18,6 +18,6 @@ model User {
   externalUserId String @unique
   bio String? @db.Text
 
-  createAt DateTime @default(now())
+  createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
